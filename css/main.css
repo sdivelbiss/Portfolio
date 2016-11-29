@@ -43,12 +43,12 @@ a:hover {
   color: #a74752;
 }
 input {
-  background-color: #000 !important;
+  background-color: #383737 !important;
   color: #32CD32;
   font-family: 'robot'
 }
 textarea {
-   background-color: #000 !important;
+   background-color: #383737 !important;
    font-family: 'robot';
    color: #32CD32 !important;
 }
@@ -173,7 +173,7 @@ p:last-of-type {
 
 .button {
   position: relative;
-  background-color: #000;
+  background-color: #282828;
   cursor: pointer;
   -webkit-transition: border-color 0.4s ease-out 0s;
   transition: border-color 0.4s ease-out 0s;
@@ -188,7 +188,7 @@ p:last-of-type {
   display: block;
   width: 90%;
   height: 90%;
-  background-color: #fff;
+  background-color: #a3a3a3;
   border: 0.1rem solid transparent;
   position: absolute;
   top: 50%;
@@ -233,18 +233,22 @@ p:last-of-type {
 
 .wrapper {
   overflow: hidden;
-  background-color: #fff;
-}
+  background-image: url("../img/1.png");
+/*  background-color: #000;
+*/}
 
 .box_blur {
   position: relative;
-  color: #fff;
+  color: #d3d3d3;
+  font-size: 20px !important;
+  font-weight: bold !important;
+  text-align: center;
 }
 
 .box_blur:after {
   content: "";
   display: block;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0);
   width: 100%;
   height: 100%;
   position: absolute;
@@ -354,7 +358,7 @@ p:last-of-type {
 }
 
 .title_white {
-  color: #fff;
+  color: #b8020e;
 }
 
 .title_white:after {
@@ -630,7 +634,7 @@ p:last-of-type {
   padding: 1.5rem 0;
   background-color: #000;
   border-bottom: 0.5rem solid #000;
-  box-shadow: 0 0 0.8rem #ddd;
+  box-shadow: 0 0 0.2rem #474747;
   -webkit-transform: translateZ(0px) translate(0, 0);
   transform: translateZ(0px) translate(0, 0);
   -webkit-transition: transform 0.5s ease-out 0s;
@@ -1003,7 +1007,9 @@ p:last-of-type {
   background-color: #000
 }
 .about-me__content {
-  color: #32CD32;
+  color: #d3d3d3;
+  font-size: 20px !important;
+  font-weight: bold !important;
   width: 80%;
   margin-left: 10%;
   text-align: center;
@@ -1015,7 +1021,7 @@ p:last-of-type {
 
 .about-me__row {
   margin-bottom: 2rem;
-  color: #fff;
+  color: #e5e5e5;
   background-color: #000
 }
 
@@ -1090,7 +1096,7 @@ p:last-of-type {
   padding: 0.5rem 1rem;
   font-size: 1.4rem;
   text-transform: uppercase;
-  color: #fff;
+  color: #e5e5e5;
   margin-left: -8px;
 }
 
@@ -1157,9 +1163,12 @@ p:last-of-type {
 }
 
 .skills-display {
-  background: url("../img/matrix_world_map-wallpaper-1920x1080.jpg") no-repeat center 50% #ddd;
-  background-size: cover;
-}
+/*  background: url("../img/matrix_world_map-wallpaper-1920x1080.jpg") no-repeat center 50% #ddd;
+*/  
+/*    background: url("../img/1.png") no-repeat center 50% #ddd;
+*/
+/*  background-size: cover;
+*/}
 
 .skills__column {
   width: 45%;
@@ -1184,7 +1193,7 @@ p:last-of-type {
 
 .skill-bar {
   height: 50%;
-  background-color: #32CD32;
+  background-color: #b8020e;
 }
 
 .skill {
@@ -1196,6 +1205,8 @@ p:last-of-type {
   font-weight: 700;
   margin-left: 2rem;
 }
+
+
 
 @media screen and (max-width: 860px) {
   .skills {
@@ -1677,7 +1688,7 @@ p:last-of-type {
   height: 1rem;
   border: 0.2rem solid #000;
   border-radius: 50%;
-  background-color: #fff;
+  background-color: #efefef;
   position: absolute;
   top: 5.5rem;
   left: 21.6%;
@@ -1697,7 +1708,7 @@ p:last-of-type {
 
 .timeline__content {
   border-left: 0.5rem solid #a74752;
-  background-color: #eee;
+  background-color: #b7b7b7;
   position: relative;
   padding: 2rem 2.5rem;
   width: 71%;
@@ -1725,6 +1736,7 @@ p:last-of-type {
   font-weight: 700;
   width: 100%;
   margin-bottom: 1rem;
+  color: #e5e5e5;
 }
 
 .timeline__place-work {
@@ -1936,8 +1948,8 @@ p:last-of-type {
  */
 .footer {
   background-color: #000;
-  border-top: 1px solid #eee;
-  box-shadow: 0 0 0.8rem #ddd;
+  /*border-top: 1px solid #eee;
+  box-shadow: 0 0 0.8rem #ddd;*/
   padding: 2rem 0;
   min-width: 100%;
   position: relative;
