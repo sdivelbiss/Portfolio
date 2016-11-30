@@ -337,6 +337,11 @@ p:last-of-type {
 
 .title_bottom-decor {
   margin-bottom: 1.5rem;
+  margin-top: 1rem;
+}
+
+.contact {
+  margin-top: 3.5rem;
 }
 
 .title_bottom-decor:after {
@@ -1162,13 +1167,7 @@ p:last-of-type {
   }
 }
 
-.skills-display {
-/*  background: url("../img/matrix_world_map-wallpaper-1920x1080.jpg") no-repeat center 50% #ddd;
-*/  
-/*    background: url("../img/1.png") no-repeat center 50% #ddd;
-*/
-/*  background-size: cover;
-*/}
+
 
 .skills__column {
   width: 45%;
